@@ -114,3 +114,33 @@
     flex-direction: column;
   }
 }
+
+.wrapper{
+  min-height: 100vh;
+  background-color: violet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  width: 500px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.input{
+  padding: 4px 16px;
+  margin-top: 4px;
+}
+
+.button{
+  padding: 8px 16px;
+  background-color: #0070f3;
+  color: white;
+  outline: none;
+  border: none;
+  margin-top: 12px;
+
+}
